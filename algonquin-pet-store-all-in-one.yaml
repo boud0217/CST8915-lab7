@@ -69,7 +69,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: ramymohamed/order-service:latest
+          image: dolsom/order-service:latest
           ports:
             - containerPort: 3000
           env:
@@ -116,7 +116,7 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: ramymohamed/product-service:latest
+          image: dolsom/product-service:latest
           ports:
             - containerPort: 3030
           env:
@@ -161,7 +161,7 @@ spec:
     spec:
       containers:
         - name: store-front
-          image: ramymohamed/store-front:latest
+          image: dolsom/store-front-l6:latest
           ports:
             - containerPort: 80
           resources:
